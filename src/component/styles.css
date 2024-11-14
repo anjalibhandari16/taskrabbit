@@ -1,0 +1,57 @@
+.container1{
+    height: 350px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-item{
+    /* min-width: 60%; */
+    margin:40px 0 0px 10px;
+}
+
+.logout-button{
+    all:unset;
+    height: 40px;
+    min-width: 80px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    top:10px;
+    right:10px
+}
+
+.option-button{
+    height: 100px;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.goBack-button{
+    all:unset;
+    height: 40px;
+    min-width: 80px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    bottom:10px;
+    right:10px
+}
+
